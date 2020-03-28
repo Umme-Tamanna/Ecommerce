@@ -1,0 +1,228 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav {
+    padding-left: 60%;
+}
+
+
+.logo{
+    height: 40px;
+    margin: 5px 25px;
+}
+
+.search-box {
+    display: inline-flex;
+    width: 40%;
+}
+
+.fa-search {
+    color: olivedrab;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid olivedrab !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    border: 1px solid olivedrab !important;
+    margin: 8.5px 10px 3px 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+
+/*.nav-bar {
+    width: 60%;
+    height: 57px;
+    float: right;
+}
+
+.nav-bar ul{
+    display: inline-flex;
+    float: right;
+}
+
+.nav-bar ul li {
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+}*/
+
+.container {
+    padding-top: 1rem;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/*----Slider text Animation-----*/
+
+.wrapper {
+    position: relative;
+    text-align: right;
+    padding-bottom: 15%;
+}
+
+.header {
+    color: midnightblue;
+}
+
+.para {
+    color: mediumpurple;
+}
+
+
+
+/*---------Product grid------*/
+
+.product-grid {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.product-grid:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.image {
+    padding-left: 15px;
+}
+
+.text-center {
+    font-size: 20px;
+}
+
+.overlay {
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5% ease;
+    background-color: rgba(67, 68, 68,0.7);
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.details {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    top: 50%;
+    left: 40%;
+}
+
+.btn{
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.btn:hover {
+    color: white;
+    background-color: purple;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .search-box{
+        width: 40%;
+        padding-right: 10%;
+        margin-right: 5px;
+    }
+    
+    .nav-bar{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .nav-bar ul{
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .nav-bar ul li{
+        height: 57px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .wrapper ol{
+        height: 120px;
+        font-size: 12px;
+        text-align: justify;
+        float: right;
+        padding-left: 60%;
+        padding-top: 5px;
+    }
+
+    .header {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .para {
+        font-size: 8px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .product-grid {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .image {
+        padding-left: 40px;
+    }
+}
