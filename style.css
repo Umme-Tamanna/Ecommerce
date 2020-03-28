@@ -164,7 +164,7 @@ body {
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 980px){
 
     .logo {
         margin-left: 0;
@@ -192,7 +192,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
 
     .wrapper ol{
         height: 120px;
