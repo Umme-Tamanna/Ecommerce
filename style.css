@@ -290,7 +290,8 @@ body {
     }
 
     .img-wrapper {
-        margin-left: 125px;
+        margin-left: 127px;
+        justify-items: center;
     }
 
     .box1 {
