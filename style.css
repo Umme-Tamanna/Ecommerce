@@ -289,6 +289,10 @@ body {
         padding-left: 40px;
     }
 
+    .img-wrapper {
+        margin-left: 125px;
+    }
+
     .box1 {
         grid-column: 1;
         grid-row: 1;
