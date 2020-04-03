@@ -168,7 +168,7 @@ body {
     grid-auto-rows: repeat(3, minmax(10px, auto));
     grid-gap: 30px 90px;
     padding-right: 30px;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 20%;
     margin-bottom: 50px;
 }
@@ -202,25 +202,26 @@ body {
 }
 
 .fazil-1 {
-    padding-top: 55px;
+    padding-top: 80px;
     padding-right: 30px;
 }
 
 .fazil-2 {
     padding-right: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
 .fazil-3 {
     padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
 .fazil-4 {
-    width: 200px;
+    width: 350px;
     padding-top: 50px;
+    padding-bottom: 30px;
     padding-right: 25px;
     justify-self: center;
 }
@@ -301,7 +302,7 @@ body {
     }
 
     .img-wrapper {
-        margin-left: 127px;
+        margin-left: 110px;
         justify-items: center;
         grid-gap: 20px;
     }
@@ -329,7 +330,7 @@ body {
     .box4 {
         grid-column: 1;
         grid-row: 4;
-        width: 220px;
+        width: 300px;
         margin-top: 2px;
     }
 
@@ -339,7 +340,7 @@ body {
     }
 
     .fazil-4 {
-        padding-right: 60px;
+        padding-right: 160px;
         padding-bottom: 25px;
     }
 
